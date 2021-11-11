@@ -1,0 +1,20 @@
+{% include htmlhead.html %}
+<html lang="en">
+ {% include head.html %}
+ <body>
+  {% include h1.html %}
+  {% include nav.html %}
+  <div class="main">
+   <h2 class="postHeading">{{ page.title }}</h2>
+   {% if site.tags %}
+    {% for tag in page.tags %}
+     <p class="badge">{{ tag }}</p>
+    {% endfor %}
+   {% else %}
+    <!--DO NOTHING!-->
+   {% endif %}
+    {{ content }}
+  </div>
+ </body>
+ {% include javascript.html %}
+</html>

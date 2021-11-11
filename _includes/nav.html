@@ -1,0 +1,6 @@
+<div class="nav" id="nav">
+ {% for item in site.data.nav %}
+  <li class="nav"><a class="nav" href="{{ item.url | prepend: site.baseurl }}">{{ item.name }}</a></li>
+ {% endfor %}
+ <li class="nav"><a class="nav" onclick="closeNav();">{{ site.navClose }}</a></li>
+</div>

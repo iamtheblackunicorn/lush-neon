@@ -1,0 +1,247 @@
+/*
+LUSH NEON by Alexander Abraham, "The Black Unicorn".
+Licensed under the MIT license.
+*/
+
+@import 'variables';
+
+body {
+  cursor:crosshair;
+  background-color: $colorThree;
+  margin: 0;
+}
+h1 {
+  margin: 0 auto;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  display: block;
+  color: $colorOne;
+  font-family: $fontOne;
+  text-align: center;
+  border: 2px solid $colorOne;
+  padding: 15px;
+  width:350px;
+  font-size: 50px;
+  box-shadow: 1px 2px $blurShadow $colorOne;
+  text-shadow: 1px 2px $blurShadow $colorFour;
+}
+h2 {
+  color: $colorFour;
+  font-family: $fontThree;
+  padding: 20px;
+  font-size: 30px;
+  font-weight: bold;
+}
+h3 {
+  color: $colorFour;
+  font-family: $fontThree;
+  padding: 20px;
+  font-size: 28px;
+  font-weight: bold;
+}
+h4 {
+  color: $colorFour;
+  font-family: $fontThree;
+  padding: 20px;
+  font-size: 27px;
+  font-weight: bold;
+}
+h5 {
+  color: $colorFour;
+  font-family: $fontThree;
+  padding: 20px;
+  font-size: 26px;
+  font-weight: bold;
+}
+p {
+  font-weight: bold;
+  padding: 20px;
+  color: $colorFour;
+  font-family: $fontTwo;
+  font-size: 25px;
+}
+div.main {
+  display: block;
+  border: 2px solid $colorFour;
+  background-color: $colorFive;
+  border-radius: 6px;
+  width: 70%;
+  margin: 0 auto;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  box-shadow: 1px 2px $blurShadow $colorFour;
+}
+a {
+  color: $colorFour;
+  font-family: $fontTwo;
+  text-decoration: underline;
+  font-size: 25px;
+  transition-duration: 0.6s;
+  text-shadow: 1px 2px $blurShadow $colorFour;
+}
+a:hover {
+  color: $colorOne;
+  text-shadow: 1px 2px $blurShadow $colorOne;
+}
+a.postRead {
+  color: $colorFour);
+  font-family: $fontOne;
+  text-decoration: underline;
+  font-size: 25px;
+  transition-duration: 0.6s;
+  text-shadow: 1px 2px $blurShadow $colorFour;
+}
+a.postRead:hover {
+  color: $colorOne;
+  text-shadow: 1px 2px $blurShadow $colorOne;
+}
+img.profile {
+  border: 10px solid $colorOne;
+  background-color: $colorOne;
+  border-top-left-radius: 50%;
+  border-bottom-left-radius: 50%;
+  border-top-right-radius: 50%;
+  border-bottom-right-radius: 50%;
+  width: 250px;
+  height: 250px;
+  margin: 0 auto;
+  display: block;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  box-shadow: 1px 2px $blurShadow $colorOne;
+}
+
+img {
+  max-width: 650px;
+  margin: 0 auto;
+  display: block;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+span.subtitle {
+  margin: 0 auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  display: block;
+  color: $colorFour;
+  font-family: $fontOne;
+  text-align: center;
+  border: none;
+  padding: 15px;
+  width:350px;
+  font-size: 25px;
+  cursor: crosshair;
+  text-shadow: 1px 2px $blurShadow $colorFour;
+}
+
+p.badge {
+  margin: 30px;
+  display: inline-block;
+  color: $colorFive;
+  font-family: $fontOne;
+  border-radius: 5px;
+  width: 10%;
+  background-color: $colorOne;
+  text-align: center;
+  padding: 10px;
+  font-size: 20px;
+  transition-duration: 0.6s;
+}
+p.badge:hover {
+  background-color: $colorFour;
+}
+code {
+  display: block;
+  border: 2px solid $colorFour;
+  background-color: $colorFive;
+  border-radius: 6px;
+  color: $colorFour;
+  padding: 20px;
+  font-size: 20px;
+  font-family: $fontOne;
+  width: 70%;
+  margin: 0 auto;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  overflow-x: scroll;
+  box-shadow: 1px 2px $blurShadow $colorFour;
+}
+blockquote {
+  display: block;
+  border: 2px solid $colorOne;
+  background-color: $colorFive;
+  border-radius: 6px;
+  color: $colorOne;
+  padding: 20px;
+  font-size: 20px;
+  font-family: $fontOne;
+  width: 70%;
+  margin: 0 auto;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  overflow-x: scroll;
+  box-shadow: 1px 2px $blurShadow $colorOne;
+}
+h2.postHeading {
+  color: $colorFour;
+  font-family: $fontOne;
+  padding: 20px;
+  font-size: 35px;
+  font-weight: bold;
+  text-shadow: 1px 2px $blurShadow $colorFour;
+  transition-duration: 0.6s;
+}
+h2.postHeading:hover {
+  text-shadow: 1px 2px $blurShadow $colorOne;
+  color: $colorOne;
+}
+div.nav {
+  margin: 0;
+  background-color: $colorThree);
+  display: none;
+  transition-duration: 0.6s;
+}
+ul {
+  margin: 0 auto;
+  display: block;
+  list-style: none;
+  text-align: center;
+  transition-duration: 0.6s;
+  padding: 20px;
+}
+li {
+  text-align: center;
+  display:block;
+  color: $colorFour;
+  font-size: 25px;
+  font-family: $fontOne;
+  text-align: left;
+}
+ul.nav {
+  margin: 0 auto;
+  display: block;
+  margin-top: 250px;
+  list-style: none;
+  text-align: center;
+  transition-duration: 0.6s;
+}
+li.nav {
+  text-align: center;
+  padding: 20px;
+  display: block;
+  transition-duration: 0.6s;
+}
+a.nav {
+  cursor:crosshair;
+  color: $colorFour;
+  font-family: $fontOne;
+  text-decoration: underline;
+  font-size: 25px;
+  transition-duration: 0.6s;
+  text-shadow: 1px 2px $blurShadow $colorFour;
+}
+a.nav:hover {
+  color: $colorOne;
+  text-shadow: 1px 2px $blurShadow $colorOne;
+}

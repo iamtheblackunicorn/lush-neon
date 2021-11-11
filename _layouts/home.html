@@ -1,0 +1,16 @@
+{% include htmlhead.html %}
+<html lang="en">
+ {% include head.html %}
+ <body>
+  {% include h1.html %}
+  {% include nav.html %}
+  {% for post in site.posts %}
+  <div class="main">
+   <h2 class="postHeading">{{ post.title }}</h2>
+    <p>{{ post.description }}</p>
+    <p><a class="postRead" href="{{ post.url | prepend: site.baseurl }}">{{ site.viewText}}</a></p>
+  </div>
+  {% endfor %}
+ </body>
+ {% include javascript.html %}
+</html>
