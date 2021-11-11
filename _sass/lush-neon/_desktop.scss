@@ -6,7 +6,6 @@ Licensed under the MIT license.
 @import 'variables';
 
 body {
-  cursor:crosshair;
   background-color: $colorThree;
   margin: 0;
 }
@@ -84,7 +83,7 @@ a:hover {
   text-shadow: 1px 2px $blurShadow $colorOne;
 }
 a.postRead {
-  color: $colorFour);
+  color: $colorFour;
   font-family: $fontOne;
   text-decoration: underline;
   font-size: 25px;
@@ -131,7 +130,6 @@ span.subtitle {
   padding: 15px;
   width:350px;
   font-size: 25px;
-  cursor: crosshair;
   text-shadow: 1px 2px $blurShadow $colorFour;
 }
 
@@ -198,7 +196,7 @@ h2.postHeading:hover {
 }
 div.nav {
   margin: 0;
-  background-color: $colorThree);
+  background-color: $colorThree;
   display: none;
   transition-duration: 0.6s;
 }
@@ -233,7 +231,6 @@ li.nav {
   transition-duration: 0.6s;
 }
 a.nav {
-  cursor:crosshair;
   color: $colorFour;
   font-family: $fontOne;
   text-decoration: underline;

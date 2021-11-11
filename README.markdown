@@ -14,7 +14,7 @@ Since the 80s featured neon lights and colorful arcades and I like colorful and 
 
 ## Live Demo :fireworks:
 
-A live demo of this Jekyll theme can be found [here](https://iamtheblackunicorn.art/lush-neon).
+A live demo of this Jekyll theme can be found [here](https://blckunicorn.art/lush-neon).
 
 ## Features :test_tube:
 
